@@ -1,5 +1,5 @@
 Task 1
-For this task I downloaded a csv file about Onboarding With Username(https://support.staffbase.com/hc/en-us/article_attachments/360009197031/username.csv) I uploaded the file to one of my GitHub repositories
+For this task I downloaded a csv file about Onboarding With Username(https://support.staffbase.com/hc/en-us/article_attachments/360009197031/username.csv) 
 
 I downloaded it in my linux terminal from there via the following command: wget https://support.staffbase.com/hc/en-us/article_attachments/360009197031/username.csv
 I showed the first 10 lines of the csv via the following command: head -n 10 username.csv
