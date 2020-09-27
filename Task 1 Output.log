@@ -1,0 +1,95 @@
+Task 1 Output.log 
+
+ 
+
+yanli@sol28 ~]$ mkdir LAB5 && cd LAB5 
+
+[yanli@sol28 LAB5]$ wgethttps://support.staffbase.com/hc/en-us/article_attachments/360009197031/username.csv 
+
+-bash: wgethttps://support.staffbase.com/hc/en-us/article_attachments/360009197031/username.csv: No such file or directory 
+
+[yanli@sol28 LAB5]$ wget https://support.staffbase.com/hc/en-us/article_attachments/360009197031/username.csv 
+
+--2020-09-27 16:41:11--  https://support.staffbase.com/hc/en-us/article_attachments/360009197031/username.csv 
+
+Resolving support.staffbase.com (support.staffbase.com)... 104.16.53.111, 104.16.51.111 
+
+Connecting to support.staffbase.com (support.staffbase.com)|104.16.53.111|:443... connected. 
+
+HTTP request sent, awaiting response... 200 OK 
+
+Length: 176 [text/csv] 
+
+Saving to: ‘username.csv’ 
+
+  
+
+100%[======================================>] 176         --.-K/s   in 0s 
+
+  
+
+2020-09-27 16:41:16 (1.04 MB/s) - ‘username.csv’ saved [176/176] 
+
+  
+
+[yanli@sol28 LAB5]$ -n 10  username.csv 
+
+bash: -n: command not found... 
+
+[yanli@sol28 LAB5]$ head -n 10 username.csv 
+
+Username; Identifier;First name;Last name 
+
+booker12;9012;Rachel;Booker 
+
+grey07;2070;Laura;Grey 
+
+johnson81;4081;Craig;Johnson 
+
+jenkins46;9346;Mary;Jenkins 
+
+smith79;5079;Jamie;Smith 
+
+  
+
+[yanli@sol28 LAB5]$ wc -l username.csv 
+
+7 username.csv 
+
+[yanli@sol28 LAB5]$ awk -F ";" '{print $1" "$3}' username.csv 
+
+Username First name 
+
+booker12 Rachel 
+
+grey07 Laura 
+
+johnson81 Craig 
+
+jenkins46 Mary 
+
+smith79 Jamie 
+
+  
+
+[yanli@sol28 LAB5]$ command < output.txt 
+
+-bash: output.txt: No such file or directory 
+
+[yanli@sol28 LAB5]$ command > output.txt 
+
+[yanli@sol28 LAB5]$ ls 
+
+output.txt  username.csv 
+
+[yanli@sol28 LAB5]$ ^C 
+
+[yanli@sol28 LAB5]$ 
+
+ 
+
+
+
+ 
+
+ 

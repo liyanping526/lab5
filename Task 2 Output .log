@@ -1,0 +1,42 @@
+Task 2 Output log 
+
+
+login as: yanli 
+
+Pre-authentication banner message from server: 
+
+| Access to Brooklyn College computers is restricted to authorized users 
+
+|         and approved educational and research purposes, only. 
+
+End of banner message from server 
+
+yanli@146.245.252.28's password: 
+
+Last login: Sun Sep 27 16:53:42 2020 from cpe-74-71-217-205.nyc.res.rr.com 
+
+[yanli@sol28 ~]$ touch myscript.sh 
+
+[yanli@sol28 ~]$ echo "Username First name booler12 Rachel grey07 Laura johnson81 Craig jenkins46 Mary smith79 Jamie" 
+
+Username First name booler12 Rachel grey07 Laura johnson81 Craig jenkins46 Mary smith79 Jamie 
+
+[yanli@sol28 ~]$ bash myscript.sh 
+
+[yanli@sol28 ~]$ chmod +x myscript.sh 
+
+[yanli@sol28 ~]$ ./myscript.sh 
+
+[yanli@sol28 ~]$ login as: yanli 
+
+[yanli@sol28 ~]$ echo "Username First name booler12 Rachel grey07 Laura johnson81 Craig jenkins46 Mary smith79 Jamie" 
+
+Username First name booler12 Rachel grey07 Laura johnson81 Craig jenkins46 Mary smith79 Jamie 
+
+[yanli@sol28 ~]$ bash myscript.sh 
+
+[yanli@sol28 ~]$ chmod +x myscript.sh 
+
+[yanli@sol28 ~]$ ./myscript.sh 
+
+[yanli@sol28 ~]$ 
